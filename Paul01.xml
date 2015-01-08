@@ -25,7 +25,18 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_reverse" id="58"></block>
+          <block type="movement_reverse" id="58">
+            <next>
+              <block type="led_select" id="118" inline="true">
+                <field name="ACTION">FLASH</field>
+                <value name="LED">
+                  <block type="math_number" id="125">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="97" inline="true">
@@ -43,7 +54,18 @@
           </block>
         </value>
         <statement name="DO1">
-          <block type="movement_stutter" id="109"></block>
+          <block type="movement_stutter" id="109">
+            <next>
+              <block type="led_select" id="126" inline="true">
+                <field name="ACTION">FLASH</field>
+                <value name="LED">
+                  <block type="math_number" id="127">
+                    <field name="NUM">5</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
         </statement>
         <statement name="ELSE">
           <block type="movement_forward" id="72"></block>
