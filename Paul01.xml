@@ -2,7 +2,7 @@
   <block type="variables_set" id="1" inline="true" x="-79" y="-21">
     <field name="VAR">item</field>
     <value name="VALUE">
-      <block type="math_number" id="6">
+      <block type="math_number" id="2">
         <field name="NUM">0</field>
       </block>
     </value>
@@ -10,18 +10,18 @@
       <block type="controls_whileUntil" id="3" inline="false">
         <field name="MODE">WHILE</field>
         <value name="NUMBER">
-          <block type="logic_compare" id="109" inline="true">
+          <block type="logic_compare" id="4" inline="true">
             <field name="OP">GT</field>
             <value name="A">
-              <block type="math_number" id="116">
+              <block type="math_number" id="5">
                 <field name="NUM">4</field>
               </block>
             </value>
             <value name="B">
-              <block type="math_arithmetic" id="180" inline="true">
+              <block type="math_arithmetic" id="6" inline="true">
                 <field name="OP">ADD</field>
                 <value name="B">
-                  <block type="math_number" id="125">
+                  <block type="math_number" id="7">
                     <field name="NUM">0</field>
                   </block>
                 </value>
@@ -30,29 +30,29 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_forward" id="190"></block>
+          <block type="movement_forward" id="8"></block>
         </statement>
         <next>
-          <block type="robot_delay" id="5" inline="true">
+          <block type="robot_delay" id="9" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="219">
+              <block type="math_number" id="10">
                 <field name="NUM">1500</field>
               </block>
             </value>
             <next>
-              <block type="movement_left" id="231">
+              <block type="movement_left" id="11">
                 <next>
-                  <block type="robot_delay" id="221" inline="true">
+                  <block type="robot_delay" id="12" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="238">
+                      <block type="math_number" id="13">
                         <field name="NUM">1325</field>
                       </block>
                     </value>
                     <next>
-                      <block type="variables_set" id="241" inline="true">
+                      <block type="variables_set" id="14" inline="true">
                         <field name="VAR">item</field>
                         <value name="VALUE">
-                          <block type="math_shift" id="304" inline="true">
+                          <block type="math_shift" id="15" inline="true">
                             <field name="OP">LEFT</field>
                           </block>
                         </value>
@@ -67,13 +67,13 @@
       </block>
     </next>
   </block>
-  <block type="variables_set" id="4" inline="true" x="237" y="231">
+  <block type="variables_set" id="16" inline="true" x="237" y="231">
     <field name="VAR">item</field>
   </block>
-  <block type="logic_compare" id="266" inline="true" x="469" y="440">
+  <block type="logic_compare" id="17" inline="true" x="469" y="440">
     <field name="OP">EQ</field>
     <value name="B">
-      <block type="math_number" id="273">
+      <block type="math_number" id="18">
         <field name="NUM">1</field>
       </block>
     </value>
