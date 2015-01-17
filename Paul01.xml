@@ -1,16 +1,16 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="robot_delay" id="1" inline="true" x="1" y="1"></block>
-  <block type="sensor_button" id="2" x="1" y="1">
+  <block type="sensor_button" id="2" x="136" y="5">
     <field name="OBJECT">UP</field>
   </block>
-  <block type="sensor_object" id="3" x="-6" y="49">
+  <block type="sensor_object" id="3" x="9" y="54">
     <field name="OBJECT">LEFTFRONT</field>
   </block>
-  <block type="sensor_line" id="4" x="-12" y="149">
+  <block type="sensor_line" id="4" x="10" y="149">
     <field name="LINE">LEFT</field>
   </block>
-  <block type="sensor_spectrometer" id="5" x="-18" y="199">
+  <block type="sensor_spectrometer" id="5" x="9" y="199">
     <field name="LIGHT">BLUE</field>
   </block>
-  <block type="sensor_battery" id="6" x="-25" y="249"></block>
+  <block type="sensor_battery" id="6" x="8" y="246"></block>
 </xml>
