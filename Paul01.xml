@@ -1,3 +1,27 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="robot_delay" id="1" inline="true" x="-32" y="-1"></block>
+  <block type="variables_set" id="37" inline="true" x="-56" y="-16">
+    <field name="VAR">item</field>
+    <value name="VALUE">
+      <block type="math_number" id="44">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_whileUntil" id="79" inline="false">
+        <field name="MODE">WHILE</field>
+        <statement name="DO">
+          <block type="variables_set" id="107" inline="true">
+            <field name="VAR">item</field>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="robot_delay" id="1" inline="true" x="120" y="3">
+    <value name="DELAY">
+      <block type="math_number" id="9">
+        <field name="NUM">5</field>
+      </block>
+    </value>
+  </block>
 </xml>
