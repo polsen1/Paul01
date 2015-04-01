@@ -61,14 +61,8 @@
       </block>
     </next>
   </block>
-  <block type="variables_set" id="15" inline="true" x="246" y="25">
-    <field name="VAR">item</field>
-  </block>
-  <block type="variables_set" id="16" inline="true" x="237" y="231">
-    <field name="VAR">item</field>
-  </block>
-  <block type="variables_set" id="17" inline="true" x="47" y="302">
-    <field name="VAR">item</field>
+  <block type="multimedia_playwav" id="44" x="-28" y="-187">
+    <field name="WAV"></field>
   </block>
   <block type="logic_compare" id="18" inline="true" x="469" y="440">
     <field name="OP">EQ</field>
