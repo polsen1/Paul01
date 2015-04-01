@@ -61,9 +61,6 @@
       </block>
     </next>
   </block>
-  <block type="multimedia_playwav" id="44" x="-28" y="-187">
-    <field name="WAV"></field>
-  </block>
   <block type="logic_compare" id="18" inline="true" x="469" y="440">
     <field name="OP">EQ</field>
     <value name="B">
