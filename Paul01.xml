@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="variables_set" id="1" inline="true" x="-29" y="-367">
+  <block type="variables_set" id="1" inline="true" x="570" y="-662">
     <field name="VAR">item</field>
     <value name="VALUE">
       <block type="math_number" id="2">
@@ -11,7 +11,7 @@
         <field name="MODE">WHILE</field>
         <value name="NUMBER">
           <block type="logic_compare" id="4" inline="true">
-            <field name="OP">GT</field>
+            <field name="OP">LT</field>
             <value name="A">
               <block type="math_number" id="5">
                 <field name="NUM">4</field>
@@ -60,13 +60,5 @@
         </next>
       </block>
     </next>
-  </block>
-  <block type="logic_compare" id="18" inline="true" x="469" y="440">
-    <field name="OP">EQ</field>
-    <value name="B">
-      <block type="math_number" id="19">
-        <field name="NUM">1</field>
-      </block>
-    </value>
   </block>
 </xml>
